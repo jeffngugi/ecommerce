@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Jeff ngugi and Sam e-commerce application</h2>
+        <p>This application now works on heroku</p>
       </header>
     </div>
   );
