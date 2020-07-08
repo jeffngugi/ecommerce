@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <p>This will contain the body</p>
       <Footer />
     </div>
   );
