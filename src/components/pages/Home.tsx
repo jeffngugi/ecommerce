@@ -2,15 +2,14 @@ import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 
-const Register = () => {
+const Home = () => {
   return (
     <div>
       <Header />
-      <h1>Register</h1>
-      <p>Registration will be here</p>
+      <p>This will contain the body</p>
       <Footer />
     </div>
   );
 };
 
-export default Register;
+export default Home;

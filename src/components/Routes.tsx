@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Login from "./auths/Login";
 import Register from "./auths/Register";
-import Home from "./layouts/Home";
+import Home from "./pages/Home";
 
 const Routes = () => {
   return (
