@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
+import "./Auth.css";
 
 const Register = () => {
   return (
     <div>
       <Header />
-      <h1>Register</h1>
-      <p>Registration will be here</p>
+      <div className="auth">
+        <p>Registration form</p>
+      </div>
       <Footer />
     </div>
   );

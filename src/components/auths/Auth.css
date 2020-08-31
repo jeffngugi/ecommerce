@@ -1,0 +1,33 @@
+:root {
+  --box-shadow: 0px 5px 10px rgba(57, 56, 61, 0.205);
+  --priamry-color: #ff8603;
+  --secondary-color: #2f322d;
+  --font-color: #6a7066;
+  --font-roboto: "Roboto", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+.auth {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--secondary-color);
+  justify-content: center;
+}
+
+.auth-form {
+  margin-top: 20px;
+  padding: 0;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.auth-form input {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 10px;
+}
